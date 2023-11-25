@@ -9,7 +9,7 @@ public class User {
   private boolean isAdmin;
 
   public User() {
-    // 默认构造函数
+    //
   }
 
   public User(int id, String username, String password, String avatar, String email, boolean isAdmin) {
@@ -21,7 +21,7 @@ public class User {
     this.isAdmin = isAdmin;
   }
 
-  // Getter 和 Setter 方法
+  // Getter & Setter
   public int getId() {
     return id;
   }
